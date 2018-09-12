@@ -8,11 +8,17 @@
 
 import Foundation
 
-var sum = 0
+var a = 0
+a = 10
+var b = 2
 
+let c = a + b
+
+var sum = 0
 for i in 0...100{
     sum=sum+i;
 }
 
 print(sum)
+print(c)
 
